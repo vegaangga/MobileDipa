@@ -3,34 +3,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/white_bg">
-<LinearLayout
-    android:gravity="center"
-    android:layout_width="match_parent"
-    android:layout_height="450dp">
-    <ImageView
-        android:foregroundGravity="center"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginRight="60dp"
-        android:layout_marginBottom="160dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/saving" />
-</LinearLayout>
+    android:background="@color/putih">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:gravity="center"
+            android:text="My Cash Book"
+            android:textAlignment="center"
+            android:textColor="@color/hitam"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="160dp"
+            android:foregroundGravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/saving" />
+    </LinearLayout>
 
 <LinearLayout
     android:gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="250dp">
+    android:layout_height="100dp">
     <ProgressBar
         android:id="@+id/progressBar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="58dp" />
+        android:layout_marginBottom="25dp" />
 </LinearLayout>
 
 </LinearLayout>
